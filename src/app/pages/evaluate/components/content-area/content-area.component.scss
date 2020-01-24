@@ -1,10 +1,5 @@
 @import "src/assets/theme/variables.scss";
 
-.arrow {
-  color: $dark-grey;
-  font-size: 2rem;
-}
-
 @media(max-width: $lg-device) {
   .user-statistic, .chart {
     padding-top: 2rem;

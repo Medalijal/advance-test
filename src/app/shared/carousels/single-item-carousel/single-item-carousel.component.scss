@@ -1,0 +1,9 @@
+@import "src/assets/theme/variables.scss";
+
+.arrow {
+  color: $light-grey;
+  font-size: 2rem;
+  &:hover{
+    color: $grey;
+  }
+}
