@@ -1,0 +1,66 @@
+@import "variables";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  @media (max-width: $xl-device) {
+    font-size: 16px;
+  }
+}
+
+html body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.elevation {
+  -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #28a59f, #1a9099, #217b8e, #2d677e, #33536a);
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-dark-blue {
+  color: $dark-blue;
+}
+
+.text-dark-grey {
+  color: $dark-grey;
+}
+
+.h-separator {
+  height: 5px;
+  background-color: $light-grey;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.text-subtitle {
+  font-size: 1.2rem;
+}
+
+.v-separator {
+  background-color: $light-grey;
+  width: 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+

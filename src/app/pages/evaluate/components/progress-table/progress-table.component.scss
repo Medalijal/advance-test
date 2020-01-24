@@ -1,0 +1,8 @@
+@import "src/assets/theme/variables.scss";
+
+.table {
+  td, th {
+    border: none;
+    border-bottom: 3px solid $light-grey;
+  }
+}

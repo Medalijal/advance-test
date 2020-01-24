@@ -1,0 +1,17 @@
+@import "src/assets/theme/variables.scss";
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: $item-color;
+
+      &:hover {
+        color: $active-item-color;
+      }
+    }
+
+    .nav-link.active {
+      color: $active-item-color;
+    }
+  }
+}
