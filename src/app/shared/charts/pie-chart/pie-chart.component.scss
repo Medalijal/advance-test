@@ -51,3 +51,8 @@
   font-weight: bold;
   text-anchor: middle;
 }
+
+.percentage-symbol{
+  @extend .percentage;
+  font-weight: normal;
+}
